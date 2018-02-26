@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="softwaretestingmaterial">
+	
+<listeners>
+<listener class-name="Practise.ListenerTest"/>
+</listeners>
+	<test name="A">
+ <gropus>
+		<run>
+		<include name="a"></include>
+		</run>
+		</gropus> 
+		<classes>
+			<class name="Practise.A" />
+		</classes>
+	</test>
+</suite>

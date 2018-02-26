@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [softwaretestingmaterial]">
+  <listeners>
+    <listener class-name="Practise.ListenerTest"/>
+  </listeners>
+  <test name="A(failed)">
+    <classes>
+      <class name="Practise.A">
+        <methods>
+          <include name="a"/>
+        </methods>
+      </class> <!-- Practise.A -->
+    </classes>
+  </test> <!-- A(failed) -->
+</suite> <!-- Failed suite [softwaretestingmaterial] -->
